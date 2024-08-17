@@ -1,0 +1,7 @@
+query Characters($pageNumber: Int!) {
+    characters(page:$pageNumber) {
+        results {
+            name
+        }
+    }
+}
